@@ -13,10 +13,10 @@ st.text("Code written by: Yara Abazah")
 # description of the app
 st.markdown("""
 
-#About
-##This app generates SVG code from a description given by the user. 
-##The app uses the GPT-3 engine to generate the SVG code. 
-##The app is built using Streamlit and the backend is written in Python.
+# About
+## This app generates SVG code from a description given by the user. 
+## The app uses the GPT-3 engine to generate the SVG code. 
+## The app is built using Streamlit and the backend is written in Python.
 
 """)
 
