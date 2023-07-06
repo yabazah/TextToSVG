@@ -5,7 +5,7 @@ import openai
 # new class for the backend
 class backend_app:
 
-    openai.api_key = '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'
+    openai.api_key = 'YOUR API HERE'
 
     # function to generate SVG code from description given by user from the application.py file
     def generate_svg(self, userDesc, start, end):
