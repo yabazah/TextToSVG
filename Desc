@@ -1,0 +1,59 @@
+transforms description in english to SVG code
+
+
+EX:
+
+Prime the model
+thing: a red circle with black outline
+code: <!DOCTYPE html>
+<html>
+<body>
+
+<svg height=”100" width=”100">
+<circle cx=”50" cy=”50" r=”40" stroke=”black” stroke-width=”3" fill=”red” />
+Sorry, your browser does not support inline SVG.
+</svg>
+
+</body>
+</html>
+
+thing: a green 5-pointed star with violet outline
+code: <!DOCTYPE html>
+<html>
+<body>
+
+<svg height=”210" width=”500">
+<polygon points=”100,10 40,198 190,78 10,78 160,198" style=”fill:lime;stroke:purple;stroke-width:5;fill-rule:nonzero;”/>
+Sorry, your browser does not support inline SVG.
+</svg>
+
+</body>
+</html>
+
+thing: a blue square with orange outline
+code: <!DOCTYPE html>
+<html>
+<body>
+
+<svg height=”250" width=”300">
+<rect width=”70" height=”80" x=”30" y=”20" style=”fill:blue;fill-opacity:1;stroke:orange;stroke-width:5" />
+Sorry, your browser does not support inline SVG.
+code: <svg width=”300" height=”250">
+</svg>
+</body>
+</html>
+
+Real example (not cherry picked)
+thing: a red circle above a square that is twice as large as the circle
+code: <!DOCTYPE html>
+<html>
+<body>
+
+<svg height=”300" width=”300">
+
+<circle cx=”150" cy=”100" r=”40" fill=”red” />
+<rect x=”60" y=”140" width=”120" height=”200" style=”fill:none;stroke:black;stroke-width:10" />
+
+</svg>
+</body>
+</html>
